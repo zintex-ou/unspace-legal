@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0a0a0a" />
     <title>Unspace — Privacy Policy</title>
-    <meta name="description" content="How Unspace collects, uses and protects your data. Last updated: 19 August 2026." />
+    <meta name="description" content="How Unspace collects, uses and protects your data. Last updated: 25 August 2026." />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <main>
       <p class="logo"><a href="./">Unspace</a></p>
       <h1>Privacy Policy</h1>
-      <p class="meta">How Unspace collects, uses and protects your data. Last updated: 19 August 2026.</p>
+      <p class="meta">How Unspace collects, uses and protects your data. Last updated: 25 August 2026.</p>
       <nav class="tabs">
         <a href="./privacy.html" class="on">Privacy</a>
         <a href="./terms.html">Terms</a>
@@ -34,20 +34,20 @@
           <li><strong>Profile data</strong> — avatar, bio, themes, fonts, stickers, profile music, widgets, badges, follows and followers</li>
           <li><strong>Content you publish</strong> — posts, Diary entries, comments, wall messages, photos, videos, voice notes and reactions</li>
           <li><strong>Messages</strong> — direct and group messages you send, their attachments and read state</li>
-          <li><strong>Push token</strong> — the device token Apple issues if you allow notifications</li>
+          <li><strong>Push token</strong> — the device token Apple or Google issues if you allow notifications</li>
           <li><strong>Subscription data</strong> — an anonymised subscriber ID and purchase history for Unspace Premium</li>
           <li><strong>Technical data</strong> — IP address, device model, OS and app version, and server request logs</li>
           <li><strong>Safety data</strong> — reports you file, accounts you block, and moderation actions on your account</li>
           <li><strong>Advertising and attribution identifiers</strong> — your device advertising identifier and install information, used to show ads and to measure which campaign brought you to Unspace (see below)</li>
         </ul>
-        <p>We do not collect precise location, health data, your phone contacts, or your browsing outside the app. We do not ask you for payment card details — purchases are handled entirely by Apple.</p>
+        <p>We do not collect precise location, health data, your phone contacts, or your browsing outside the app. We do not ask you for payment card details — purchases are handled entirely by Apple on iOS and by Google Play on Android.</p>
       </section>
 
       <section>
         <h2>Why we process it, and on what legal basis</h2>
         <ul>
           <li>To create and run your account, show your profile and deliver your posts and messages — <strong>performance of our contract with you</strong> (GDPR Art. 6(1)(b))</li>
-          <li>To send push notifications about activity involving you — <strong>your consent</strong> (Art. 6(1)(a)), which you can withdraw at any time in iOS Settings</li>
+          <li>To send push notifications about activity involving you — <strong>your consent</strong> (Art. 6(1)(a)), which you can withdraw at any time in your device settings</li>
           <li>To process Unspace Premium — <strong>performance of contract</strong> (Art. 6(1)(b))</li>
           <li>To detect and act on abuse, spam, ban evasion and illegal content — <strong>our legitimate interest</strong> in keeping the platform safe (Art. 6(1)(f))</li>
           <li>To fix crashes and keep the service working — <strong>legitimate interest</strong> (Art. 6(1)(f))</li>
@@ -63,7 +63,9 @@
           <li><strong>Supabase</strong> — authentication, database and file storage. Data is hosted in the European Union.</li>
           <li><strong>Cloudflare R2</strong> — storage and delivery of photos, videos and other media you upload.</li>
           <li><strong>RevenueCat</strong> — management of Unspace Premium subscriptions (United States).</li>
-          <li><strong>Apple</strong> — app distribution, In-App Purchase and push notification delivery.</li>
+          <li><strong>Apple</strong> — app distribution, In-App Purchase and push notification delivery on iOS.</li>
+          <li><strong>Google Play</strong> — app distribution and, through Google Play Billing, payment processing on Android.</li>
+          <li><strong>Firebase Cloud Messaging (Google)</strong> — push notification delivery on Android.</li>
           <li><strong>Google (AdMob)</strong> — serving advertisements in the free version of the app.</li>
           <li><strong>AppsFlyer</strong> — measuring which campaign or link brought a new user to Unspace.</li>
         </ul>
@@ -84,13 +86,13 @@
           </li>
         </ul>
         <p>
-          <strong>Your choice.</strong> On iOS, tracking across apps and websites only happens if you allow it when the app asks. You can change your answer at any time in <strong>iOS Settings → Privacy &amp; Security → Tracking</strong>. If you say no, Unspace still works and you will still see ads — they are simply less relevant, and are not linked to you across other apps.
+          <strong>Your choice.</strong> On iOS, tracking across apps and websites only happens if you allow it when the app asks. You can change your answer at any time in <strong>iOS Settings → Privacy &amp; Security → Tracking</strong>. On Android, you control this through <strong>Settings → Privacy → Ads</strong>, where you can delete or reset your advertising ID. If you say no, Unspace still works and you will still see ads — they are simply less relevant, and are not linked to you across other apps.
         </p>
         <p>
           <strong>Unspace Premium removes advertising.</strong> While a subscription is active, no ads are shown to you.
         </p>
         <p>
-          Advertising and attribution rest on your consent where consent is required (GDPR Art. 6(1)(a) and Apple’s App Tracking Transparency), and otherwise on our legitimate interest in funding and growing a free service (Art. 6(1)(f)). We never use the content of your posts, Diary entries or messages to target advertising.
+          Advertising and attribution rest on your consent where consent is required (GDPR Art. 6(1)(a) and Apple’s App Tracking Transparency on iOS, and the Android advertising ID controls on Android), and otherwise on our legitimate interest in funding and growing a free service (Art. 6(1)(f)). We never use the content of your posts, Diary entries or messages to target advertising.
         </p>
       </section>
 
@@ -111,7 +113,7 @@
         <ul>
           <li>All traffic between the app and our servers uses HTTPS with TLS 1.2 or higher.</li>
           <li>Passwords are hashed; we never see or store them in readable form.</li>
-          <li>Sign-in tokens are stored in the iOS Keychain.</li>
+          <li>Sign-in tokens are stored in the iOS Keychain, and in the Android Keystore on Android.</li>
           <li>Access to production data is limited to the people who need it, behind strong authentication.</li>
           <li>Database access rules restrict every account to the data it is allowed to see.</li>
         </ul>
@@ -133,7 +135,7 @@
 
       <section>
         <h2>Age</h2>
-        <p>Unspace is rated 13+ on the App Store and is intended for users aged 13 and over. We ask for your date of birth at sign-up and refuse accounts below that age. If we learn that a younger child has created an account, we remove it and the data with it. See also our <a href="./child-safety.html">child safety standards</a>.</p>
+        <p>Unspace is rated for users aged 13 and over on the App Store and on Google Play, and is intended for that audience. We ask for your date of birth at sign-up and refuse accounts below that age. If we learn that a younger child has created an account, we remove it and the data with it. See also our <a href="./child-safety.html">child safety standards</a>.</p>
       </section>
 
       <section>
